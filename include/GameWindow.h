@@ -5,11 +5,18 @@
 
 class GameWindow {
 public:
+    GameWindow();
+    ~GameWindow();
+
     void Run();
+
+    // Prevents copying
+    GameWindow(const GameWindow&) = delete;
+    GameWindow& operator=(const GameWindow&) = delete;
 
 private:
     GLFWwindow* window;
-    bool Initialize();
+    void Initialize();
     void Cleanup();
     void PrintVersion();
 };

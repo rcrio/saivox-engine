@@ -4,19 +4,20 @@
 #include "GameWindow.h"
 #include <iostream>
 
+
+GameWindow::GameWindow() {
+    Initialize();
+}
+
+GameWindow::~GameWindow() {
+    Cleanup();
+}
+
 /**
  * @brief Initializes GLFW dependencies, prepares needed variables for
  * the main game loop, and then runs the main game loop.
  */
 void GameWindow::Run() {
-    // Initialize the window. If false, catches the error and closes the game.
-    if (!Initialize()) {
-        std::cerr << "Failed to initialize the game." << std::endl;
-        return;
-    }
-
-    PrintVersion();
-
     //Game game;
     
     float lastFrame = 0.0f;
@@ -42,8 +43,6 @@ void GameWindow::Run() {
         // Needs to update current presented buffer
         glfwSwapBuffers(window);
     }
-
-    Cleanup();
 }
 
 /**
@@ -52,48 +51,59 @@ void GameWindow::Run() {
  *
  * @return true if initialization succeeded, false otherwise.
  */
-bool GameWindow::Initialize() {
+void GameWindow::Initialize() {
+    std::cout << "Initializing game window... ";
+
     if (!glfwInit()) {
-        return false;
+        throw std::runtime_error("Failed to initialize GLFW!");
     }
 
-    // Set window hints if needed (e.g., OpenGL version)
+    // Set version to 3.3 and core profile
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
     window = glfwCreateWindow(1600, 900, "Saivox Engine", NULL, NULL);
     if (!window) {
         glfwTerminate();
-        return false;
+        throw std::runtime_error("Failed to create window!");
     }
 
     glfwMakeContextCurrent(window);
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-        std::cerr << "Failed to initialize GLAD" << std::endl;
-        return false;
+        glfwDestroyWindow(window);
+        glfwTerminate();
+        throw std::runtime_error("Failed to initialize GLAD!");
     }
 
-    // Set a background color (Dark Gray)
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
 
-    return true;
+    std::cout << "Success!" << std::endl;
+    PrintVersion();
 }
 
 /**
  * @brief Safely destroy GLFW window and GLFW terminate for proper cleanup.
  */
 void GameWindow::Cleanup() {
+    std::cout << "Cleaning up window resources... ";
+
     if (window) {
         glfwDestroyWindow(window);
     }
     glfwTerminate();
+
+    std::cout << "Success!" << std::endl;
 }
 
 /**
  * @brief Logs OpenGL version and GPU renderer to terminal.
  */
 void GameWindow::PrintVersion() {
-    const GLubyte* version = glGetString(GL_VERSION);
-    const GLubyte* renderer = glGetString(GL_RENDERER);
+    std::cout << "OpenGL Version: " << glGetString(GL_VERSION) << "\n";
 
-    std::cout << "Running OpenGL version: " << version << std::endl;
-    std::cout << "Running OpenGL renderer: " << renderer << std::endl;
+    std::cout << "Renderer: " << glGetString(GL_RENDERER) << "\n";
+
+    std::cout << "Vendor: " << glGetString(GL_VENDOR) << "\n";
 }

@@ -1,5 +1,5 @@
 # Saivox Engine
-
+An attempt at making a voxel engine with C++ and OpenGL.
 
 # Engine Stack
 - OpenGL 3.3
@@ -11,7 +11,7 @@
 - CMake
 
 # Steps
-## 1.
+## 1. 
 ```bash
 git clone https://github.com/microsoft/vcpkg
 cd vcpkg
@@ -19,12 +19,12 @@ cd vcpkg
 .\bootstrap-vcpkg.bat  # Windows
 ```
 
-## 2.
+## 2. (Whilst in the vcpkg folder)
 ```bash
 vcpkg install glfw3
 ```
 
-## 3.
+## 3. (Assumes you have vcpkg installed in root)
 ```bash
 cmake -B build -S . \
 -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake \
@@ -32,7 +32,6 @@ cmake -B build -S . \
 ```
 
 ## 4.
-
 ```bash
 cmake --build build && ./build/saivox-engine
 ```
