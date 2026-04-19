@@ -15,6 +15,7 @@ add_executable(saivox-engine
     src/GameWindow.cpp
     src/Game.cpp
     src/Renderer.cpp
+    src/Mesh.cpp
 )
 
 target_include_directories(saivox-engine PRIVATE include)

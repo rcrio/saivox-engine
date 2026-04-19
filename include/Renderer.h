@@ -2,6 +2,7 @@
 #define SAIVOX_ENGINE_RENDERER_H
 
 #include <string>
+#include "Mesh.h"
 
 class Renderer {
 public:
@@ -14,8 +15,8 @@ public:
     void CheckProgram(unsigned int shaderProgram);
 
     void SetupShaders();
-    void CreateMesh(unsigned int& vao, unsigned int& vbo, float* vertices, size_t size);
-    void Draw(unsigned int vao, float r, float g, float b);
+
+    void Draw(const Mesh& mesh, float r, float g, float b);
 
 private:
     const char* vertexShaderSource;

@@ -1,2 +1,11 @@
 Currently the structure is:
 Main has GameWindow -> Game -> Renderer
+
+Mesh logic:
+Step 1: Bind VAO (select stored vertex layout)
+Step 2: VAO already references VBO(s)
+Step 3: GPU reads raw VBO data
+Step 4: VAO rules interpret data into vertex attributes
+Step 5: Vertex shader runs per vertex
+
+Each unique geometry gets a mesh (VAO/VBO), then many objects can reuse it.

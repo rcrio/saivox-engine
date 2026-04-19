@@ -1,8 +1,10 @@
 #include <glad/glad.h> // GLAD needs to be before GLFW
 #include <GLFW/glfw3.h>
+#include <iostream>
 
 #include "GameWindow.h"
-#include <iostream>
+#include "Game.h"
+
 
 
 GameWindow::GameWindow() {
@@ -18,7 +20,7 @@ GameWindow::~GameWindow() {
  * the main game loop, and then runs the main game loop.
  */
 void GameWindow::Run() {
-    //Game game;
+    Game game;
     
     float lastFrame = 0.0f;
 
@@ -33,12 +35,12 @@ void GameWindow::Run() {
         glfwPollEvents(); 
 
         // 3. Logic
-        //game.Update(deltaTime); 
+        game.Update(deltaTime); 
 
         // 4. Rendering
         glClear(GL_COLOR_BUFFER_BIT); 
         
-        //game.Draw();
+        game.Draw();
         
         // Needs to update current presented buffer
         glfwSwapBuffers(window);

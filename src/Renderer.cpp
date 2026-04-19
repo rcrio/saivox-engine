@@ -59,13 +59,13 @@ void Renderer::CheckProgram(unsigned int shaderProgram) {
 }
 
 void Renderer::SetupShaders() {
-    unsigned int vertexShader = CompileShader(GL_VERTEX_SHADER, vertexShaderSource);
+    vertexShader = CompileShader(GL_VERTEX_SHADER, vertexShaderSource);
     CheckShader(vertexShader, "Vertex Shader");
 
-    unsigned int fragmentShader = CompileShader(GL_FRAGMENT_SHADER, fragmentShaderSource);
+    fragmentShader = CompileShader(GL_FRAGMENT_SHADER, fragmentShaderSource);
     CheckShader(fragmentShader, "Fragment Shader");
     
-    unsigned int shaderProgram = CompileProgram(vertexShader, fragmentShader);
+    shaderProgram = CompileProgram(vertexShader, fragmentShader);
     CheckProgram(shaderProgram);
 
     uColorLocation = glGetUniformLocation(shaderProgram, "uColor");
@@ -75,33 +75,17 @@ void Renderer::SetupShaders() {
     glDeleteShader(fragmentShader);
 }
 
-void Renderer::CreateMesh(unsigned int& vao, unsigned int& vbo, float* vertices, size_t size) {
-    glGenVertexArrays(1, &vao);
-    glGenBuffers(1, &vbo);
-
-    glBindVertexArray(vao);
-
-    glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    glBufferData(GL_ARRAY_BUFFER, size, vertices, GL_STATIC_DRAW);
-
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
-}
-
-void Renderer::Draw(unsigned int vao, float r, float g, float b) {
-    // Tell OpenGL which shader process to use
+void Renderer::Draw(const Mesh& mesh, float r, float g, float b)
+{
+    // Use shader
     glUseProgram(shaderProgram);
-
-    // Set colour uniform
+    
+    // Set uniform
     glUniform4f(uColorLocation, r, g, b, 1.0f);
 
-    // Bind the geometry and draw
-    glBindVertexArray(vao);
-    glDrawArrays(GL_TRIANGLES, 0, 3); // Draws 3 vertices
-
-    // Clean up state (optional but good practice)
+    // Use mesh (VAO is inside it now)
+    glUseProgram(shaderProgram);
+    glBindVertexArray(mesh.GetVAO());
+    glDrawArrays(GL_TRIANGLES, 0, 3);
     glBindVertexArray(0);
 }
