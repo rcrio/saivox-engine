@@ -7,6 +7,7 @@ public:
     Camera();
 
     glm::mat4 GetViewMatrix() const;
+    glm::mat4 GetProjectionMatrix(float aspectRatio) const;
 
     void SetPosition(const glm::vec3& position);
     void SetFront(const glm::vec3& front);

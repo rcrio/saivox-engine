@@ -2,6 +2,12 @@
 #include <iostream>
 
 int main() {
-    GameWindow gameWindow;
-    gameWindow.Run();
+    try {
+        std::cout << "MAIN START\n";
+        GameWindow gameWindow;
+        gameWindow.Run();
+    }
+    catch (const std::exception& e) {
+        std::cout << "EXCEPTION: " << e.what() << "\n";
+    }
 }

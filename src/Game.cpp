@@ -9,6 +9,7 @@ Game::Game() {
     renderer = std::make_unique<Renderer>();
     renderer->SetupShaders();
     camera = std::make_unique<Camera>();
+    // REFACTOR NOTE: If you call game in GameWindow, it tries to setup mesh and crashes
     SetupMesh();
 }
 
@@ -61,25 +62,23 @@ void Game::Update(float deltaTime, const InputState& input)
     }
 }
 
-void Game::Draw() {
-    switch (currentState) {
+void Game::Draw(float aspect)
+{
+    switch (currentState)
+    {
         case State::MENU:
             break;
 
         case State::PLAYING:
-            glm::mat4 view = camera->GetViewMatrix();
+        {
+            renderer->BeginFrame(*camera, aspect);
 
-            glm::mat4 projection = glm::perspective(
-                glm::radians(45.0f),
-                1600.0f / 900.0f,
-                0.1f,
-                100.0f
-            );
-                
-            if (cubeMesh) {
-                renderer->Draw(*cubeMesh, view, projection, 1.0f, 0.5f, 0.2f);
+            if (cubeMesh)
+            {
+                renderer->Draw(*cubeMesh, 1.0f, 0.5f, 0.2f);
             }
             break;
+        }
 
         case State::EXIT:
             return;

@@ -19,12 +19,12 @@ public:
     Game();
 
     void Update(float deltaTime, const InputState& input);
-    void Draw();
+    void Draw(float aspect);
     bool IsRunning() const;
+    // REFACTOR NOTE: Move this out
+    void SetupMesh();
     
 private:
-    void SetupMesh();
-
     State currentState;
 
     std::unique_ptr<Camera> camera;
@@ -32,8 +32,6 @@ private:
     std::unique_ptr<Mesh> cubeMesh;
 
     std::unique_ptr<Renderer> renderer;
-
-
 };
 
 

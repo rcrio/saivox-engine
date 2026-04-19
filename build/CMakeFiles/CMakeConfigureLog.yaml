@@ -51,9 +51,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -78,7 +78,7 @@ events:
       The output was:
       0
       MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-      Build started 19/04/2026 15:48:55.
+      Build started 19/04/2026 22:08:09.
       
       Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -107,7 +107,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.22
+      Time Elapsed 00:00:01.28
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -153,9 +153,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -177,9 +177,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -201,9 +201,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -254,15 +254,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link"
@@ -326,15 +326,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link"
@@ -378,9 +378,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -425,9 +425,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -449,9 +449,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -473,9 +473,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -526,15 +526,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lld-link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
@@ -598,15 +598,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lld-link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
@@ -670,15 +670,15 @@ events:
       - "C:/Program Files/wooting-analog-sdk/lld-link.com"
       - "C:/Program Files/wooting-analog-sdk/lld-link.exe"
       - "C:/Program Files/wooting-analog-sdk/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/lld-link.com"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/lld-link.exe"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/lld-link"
       - "C:/Program Files/nodejs/lld-link.com"
       - "C:/Program Files/nodejs/lld-link.exe"
       - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
@@ -721,9 +721,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -766,9 +766,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -790,9 +790,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -814,9 +814,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -867,15 +867,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link"
@@ -939,15 +939,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/link"
@@ -991,9 +991,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1036,9 +1036,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1060,9 +1060,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1084,9 +1084,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1137,15 +1137,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/mt"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/mt.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/mt.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/mt"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/mt"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/mt"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/mt.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/mt.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/mt"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt"
@@ -1209,15 +1209,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/mt"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/mt.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/mt.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/mt"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/mt"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/mt"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/mt.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/mt.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/mt"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt"
@@ -1281,15 +1281,15 @@ events:
       - "C:/Program Files/wooting-analog-sdk/mt.com"
       - "C:/Program Files/wooting-analog-sdk/mt.exe"
       - "C:/Program Files/wooting-analog-sdk/mt"
-      - "C:/Program Files/CMake/bin/mt.com"
-      - "C:/Program Files/CMake/bin/mt.exe"
-      - "C:/Program Files/CMake/bin/mt"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/mt.com"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/mt.exe"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/mt"
       - "C:/Program Files/nodejs/mt.com"
       - "C:/Program Files/nodejs/mt.exe"
       - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/mt"
@@ -1332,9 +1332,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1377,9 +1377,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1401,9 +1401,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1425,9 +1425,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1478,15 +1478,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lib"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lib.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lib.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lib"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lib"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lib"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lib.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lib.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lib"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lib"
@@ -1550,15 +1550,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lib"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lib.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lib.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lib"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lib"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lib"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lib.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lib.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lib"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lib.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lib.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lib"
@@ -1602,9 +1602,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1656,9 +1656,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1683,7 +1683,7 @@ events:
       The output was:
       0
       MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-      Build started 19/04/2026 15:48:57.
+      Build started 19/04/2026 22:08:11.
       
       Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -1712,7 +1712,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.24
+      Time Elapsed 00:00:01.19
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1758,9 +1758,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1782,9 +1782,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1806,9 +1806,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -1859,15 +1859,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/lld-link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/lld-link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
@@ -1931,15 +1931,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/lld-link"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/lld-link"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
@@ -2003,15 +2003,15 @@ events:
       - "C:/Program Files/wooting-analog-sdk/lld-link.com"
       - "C:/Program Files/wooting-analog-sdk/lld-link.exe"
       - "C:/Program Files/wooting-analog-sdk/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/lld-link.com"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/lld-link.exe"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/lld-link"
       - "C:/Program Files/nodejs/lld-link.com"
       - "C:/Program Files/nodejs/lld-link.exe"
       - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
@@ -2054,9 +2054,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -2108,9 +2108,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -2150,9 +2150,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -2192,9 +2192,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -2275,15 +2275,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/rc"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/rc.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/rc.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/rc"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/rc"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/rc"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/rc.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/rc.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/rc"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc"
@@ -2401,15 +2401,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/rc"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/rc.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/rc.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/rc"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/rc"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/rc"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/rc.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/rc.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/rc"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc"
@@ -2527,15 +2527,15 @@ events:
       - "C:/Program Files/wooting-analog-sdk/rc.com"
       - "C:/Program Files/wooting-analog-sdk/rc.exe"
       - "C:/Program Files/wooting-analog-sdk/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/rc.com"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/rc.exe"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/rc"
       - "C:/Program Files/nodejs/rc.com"
       - "C:/Program Files/nodejs/rc.exe"
       - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/rc"
@@ -2614,9 +2614,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -2640,8 +2640,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-otjweu"
-      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-otjweu"
+      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-1v64m1"
+      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-1v64m1"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -2655,39 +2655,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-otjweu'
+        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-1v64m1'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19c0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_abb7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-        Build started 19/04/2026 15:48:58.
+        Build started 19/04/2026 22:08:12.
         
-        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otjweu\\cmTC_19c0d.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1v64m1\\cmTC_abb7f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otjweu\\Debug\\".
-          Creating directory "cmTC_19c0d.dir\\Debug\\cmTC_19c0d.tlog\\".
+          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1v64m1\\Debug\\".
+          Creating directory "cmTC_abb7f.dir\\Debug\\cmTC_abb7f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_19c0d.dir\\Debug\\cmTC_19c0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_19c0d.dir\\Debug\\cmTC_19c0d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_abb7f.dir\\Debug\\cmTC_abb7f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_abb7f.dir\\Debug\\cmTC_abb7f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_19c0d.dir\\Debug\\\\" /Fd"cmTC_19c0d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_abb7f.dir\\Debug\\\\" /Fd"cmTC_abb7f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35729 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_19c0d.dir\\Debug\\\\" /Fd"cmTC_19c0d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_abb7f.dir\\Debug\\\\" /Fd"cmTC_abb7f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otjweu\\Debug\\cmTC_19c0d.exe" /INCREMENTAL /ILK:"cmTC_19c0d.dir\\Debug\\cmTC_19c0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-otjweu/Debug/cmTC_19c0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-otjweu/Debug/cmTC_19c0d.lib" /MACHINE:X64  /machine:x64 cmTC_19c0d.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_19c0d.vcxproj -> C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otjweu\\Debug\\cmTC_19c0d.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1v64m1\\Debug\\cmTC_abb7f.exe" /INCREMENTAL /ILK:"cmTC_abb7f.dir\\Debug\\cmTC_abb7f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-1v64m1/Debug/cmTC_abb7f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-1v64m1/Debug/cmTC_abb7f.lib" /MACHINE:X64  /machine:x64 cmTC_abb7f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_abb7f.vcxproj -> C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1v64m1\\Debug\\cmTC_abb7f.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_19c0d.dir\\Debug\\cmTC_19c0d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_19c0d.dir\\Debug\\cmTC_19c0d.tlog\\cmTC_19c0d.lastbuildstate".
-        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-otjweu\\cmTC_19c0d.vcxproj" (default targets).
+          Deleting file "cmTC_abb7f.dir\\Debug\\cmTC_abb7f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_abb7f.dir\\Debug\\cmTC_abb7f.tlog\\cmTC_abb7f.lastbuildstate".
+        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1v64m1\\cmTC_abb7f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.20
+        Time Elapsed 00:00:01.19
         
       exitCode: 0
   -
@@ -2727,8 +2727,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-0oc38q"
-      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-0oc38q"
+      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-j42w7f"
+      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-j42w7f"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -2743,39 +2743,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-0oc38q'
+        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-j42w7f'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63cb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b62ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-        Build started 19/04/2026 15:49:00.
+        Build started 19/04/2026 22:08:14.
         
-        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0oc38q\\cmTC_63cb9.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j42w7f\\cmTC_b62ef.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0oc38q\\Debug\\".
-          Creating directory "cmTC_63cb9.dir\\Debug\\cmTC_63cb9.tlog\\".
+          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j42w7f\\Debug\\".
+          Creating directory "cmTC_b62ef.dir\\Debug\\cmTC_b62ef.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_63cb9.dir\\Debug\\cmTC_63cb9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_63cb9.dir\\Debug\\cmTC_63cb9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b62ef.dir\\Debug\\cmTC_b62ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b62ef.dir\\Debug\\cmTC_b62ef.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_63cb9.dir\\Debug\\\\" /Fd"cmTC_63cb9.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_b62ef.dir\\Debug\\\\" /Fd"cmTC_b62ef.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35729 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_63cb9.dir\\Debug\\\\" /Fd"cmTC_63cb9.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_b62ef.dir\\Debug\\\\" /Fd"cmTC_b62ef.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0oc38q\\Debug\\cmTC_63cb9.exe" /INCREMENTAL /ILK:"cmTC_63cb9.dir\\Debug\\cmTC_63cb9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-0oc38q/Debug/cmTC_63cb9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-0oc38q/Debug/cmTC_63cb9.lib" /MACHINE:X64  /machine:x64 cmTC_63cb9.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_63cb9.vcxproj -> C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0oc38q\\Debug\\cmTC_63cb9.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j42w7f\\Debug\\cmTC_b62ef.exe" /INCREMENTAL /ILK:"cmTC_b62ef.dir\\Debug\\cmTC_b62ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-j42w7f/Debug/cmTC_b62ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-j42w7f/Debug/cmTC_b62ef.lib" /MACHINE:X64  /machine:x64 cmTC_b62ef.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b62ef.vcxproj -> C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j42w7f\\Debug\\cmTC_b62ef.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_63cb9.dir\\Debug\\cmTC_63cb9.tlog\\unsuccessfulbuild".
-          Touching "cmTC_63cb9.dir\\Debug\\cmTC_63cb9.tlog\\cmTC_63cb9.lastbuildstate".
-        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0oc38q\\cmTC_63cb9.vcxproj" (default targets).
+          Deleting file "cmTC_b62ef.dir\\Debug\\cmTC_b62ef.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b62ef.dir\\Debug\\cmTC_b62ef.tlog\\cmTC_b62ef.lastbuildstate".
+        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j42w7f\\cmTC_b62ef.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.21
+        Time Elapsed 00:00:01.18
         
       exitCode: 0
   -
@@ -2822,8 +2822,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-7pu67e"
-      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-7pu67e"
+      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-tdinlj"
+      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-tdinlj"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -2837,39 +2837,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-7pu67e'
+        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-tdinlj'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c41d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9047b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-        Build started 19/04/2026 15:49:02.
+        Build started 19/04/2026 22:08:16.
         
-        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\cmTC_4c41d.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\cmTC_9047b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\Debug\\".
-          Creating directory "cmTC_4c41d.dir\\Debug\\cmTC_4c41d.tlog\\".
+          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\Debug\\".
+          Creating directory "cmTC_9047b.dir\\Debug\\cmTC_9047b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4c41d.dir\\Debug\\cmTC_4c41d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4c41d.dir\\Debug\\cmTC_4c41d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9047b.dir\\Debug\\cmTC_9047b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9047b.dir\\Debug\\cmTC_9047b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4c41d.dir\\Debug\\\\" /Fd"cmTC_4c41d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9047b.dir\\Debug\\\\" /Fd"cmTC_9047b.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35729 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4c41d.dir\\Debug\\\\" /Fd"cmTC_4c41d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9047b.dir\\Debug\\\\" /Fd"cmTC_9047b.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\src.c"
           src.c
-        C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\cmTC_4c41d.vcxproj]
-        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\cmTC_4c41d.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\cmTC_9047b.vcxproj]
+        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\cmTC_9047b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\cmTC_4c41d.vcxproj" (default target) (1) ->
+        "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\cmTC_9047b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7pu67e\\cmTC_4c41d.vcxproj]
+          C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdinlj\\cmTC_9047b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.20
+        Time Elapsed 00:00:01.15
         
       exitCode: 1
   -
@@ -2887,8 +2887,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-sgduvg"
-      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-sgduvg"
+      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-9ygf6x"
+      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-9ygf6x"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -2902,41 +2902,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-sgduvg'
+        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-9ygf6x'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd5b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b2932.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-        Build started 19/04/2026 15:49:04.
+        Build started 19/04/2026 22:08:17.
         
-        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\cmTC_bd5b1.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\cmTC_b2932.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\Debug\\".
-          Creating directory "cmTC_bd5b1.dir\\Debug\\cmTC_bd5b1.tlog\\".
+          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\Debug\\".
+          Creating directory "cmTC_b2932.dir\\Debug\\cmTC_b2932.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bd5b1.dir\\Debug\\cmTC_bd5b1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_bd5b1.dir\\Debug\\cmTC_bd5b1.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b2932.dir\\Debug\\cmTC_b2932.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b2932.dir\\Debug\\cmTC_b2932.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bd5b1.dir\\Debug\\\\" /Fd"cmTC_bd5b1.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b2932.dir\\Debug\\\\" /Fd"cmTC_b2932.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35729 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bd5b1.dir\\Debug\\\\" /Fd"cmTC_bd5b1.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b2932.dir\\Debug\\\\" /Fd"cmTC_b2932.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\Debug\\cmTC_bd5b1.exe" /INCREMENTAL /ILK:"cmTC_bd5b1.dir\\Debug\\cmTC_bd5b1.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-sgduvg/Debug/cmTC_bd5b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-sgduvg/Debug/cmTC_bd5b1.lib" /MACHINE:X64  /machine:x64 cmTC_bd5b1.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\cmTC_bd5b1.vcxproj]
-        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\cmTC_bd5b1.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\Debug\\cmTC_b2932.exe" /INCREMENTAL /ILK:"cmTC_b2932.dir\\Debug\\cmTC_b2932.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-9ygf6x/Debug/cmTC_b2932.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-9ygf6x/Debug/cmTC_b2932.lib" /MACHINE:X64  /machine:x64 cmTC_b2932.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\cmTC_b2932.vcxproj]
+        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\cmTC_b2932.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\cmTC_bd5b1.vcxproj" (default target) (1) ->
+        "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\cmTC_b2932.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sgduvg\\cmTC_bd5b1.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ygf6x\\cmTC_b2932.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.13
+        Time Elapsed 00:00:01.11
         
       exitCode: 1
   -
@@ -2954,8 +2954,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-z5fghj"
-      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-z5fghj"
+      source: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-l6tpol"
+      binary: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-l6tpol"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -2969,41 +2969,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-z5fghj'
+        Change Dir: 'C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-l6tpol'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b4fd8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_521ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.5.4+cb4e32d21 for .NET Framework
-        Build started 19/04/2026 15:49:05.
+        Build started 19/04/2026 22:08:19.
         
-        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\cmTC_b4fd8.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\cmTC_521ef.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\Debug\\".
-          Creating directory "cmTC_b4fd8.dir\\Debug\\cmTC_b4fd8.tlog\\".
+          Creating directory "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\Debug\\".
+          Creating directory "cmTC_521ef.dir\\Debug\\cmTC_521ef.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b4fd8.dir\\Debug\\cmTC_b4fd8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b4fd8.dir\\Debug\\cmTC_b4fd8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_521ef.dir\\Debug\\cmTC_521ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_521ef.dir\\Debug\\cmTC_521ef.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b4fd8.dir\\Debug\\\\" /Fd"cmTC_b4fd8.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_521ef.dir\\Debug\\\\" /Fd"cmTC_521ef.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35729 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b4fd8.dir\\Debug\\\\" /Fd"cmTC_b4fd8.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_521ef.dir\\Debug\\\\" /Fd"cmTC_521ef.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\Debug\\cmTC_b4fd8.exe" /INCREMENTAL /ILK:"cmTC_b4fd8.dir\\Debug\\cmTC_b4fd8.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-z5fghj/Debug/cmTC_b4fd8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-z5fghj/Debug/cmTC_b4fd8.lib" /MACHINE:X64  /machine:x64 cmTC_b4fd8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\cmTC_b4fd8.vcxproj]
-        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\cmTC_b4fd8.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\Debug\\cmTC_521ef.exe" /INCREMENTAL /ILK:"cmTC_521ef.dir\\Debug\\cmTC_521ef.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-l6tpol/Debug/cmTC_521ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/build/CMakeFiles/CMakeScratch/TryCompile-l6tpol/Debug/cmTC_521ef.lib" /MACHINE:X64  /machine:x64 cmTC_521ef.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\cmTC_521ef.vcxproj]
+        Done Building Project "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\cmTC_521ef.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\cmTC_b4fd8.vcxproj" (default target) (1) ->
+        "C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\cmTC_521ef.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z5fghj\\cmTC_b4fd8.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\p3NgR\\Documents\\repos\\cpp\\saivox-engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l6tpol\\cmTC_521ef.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.11
+        Time Elapsed 00:00:01.09
         
       exitCode: 1
   -
@@ -3115,9 +3115,135 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\p3NgR\\.dotnet\\tools"
+        - "C:\\Users\\p3NgR\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/saivox-engine"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/saivox-engine"
+      CMAKE_FIND_ROOT_PATH: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug;C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:11 (find_package)"
+    name: "glm"
+    configs:
+      -
+        filename: "glm.cps"
+        kind: "cps"
+      -
+        filename: "glmConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glm-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glm"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/share/glm/glmConfig.cmake"
+      mode: "config"
+      version: "1.0.3"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug"
+        - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows"
+      ENV{PATH}:
+        - "c:\\Users\\p3NgR\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\p3NgR\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\wooting-analog-sdk\\"
+        - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -3137,7 +3263,7 @@ events:
     backtrace:
       - "vcpkg/scripts/buildsystems/vcpkg.cmake:188 (find_program)"
       - "vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:12 (add_executable)"
+      - "CMakeLists.txt:13 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_PWSH_PATH"
     description: "Path to a program."
@@ -3172,9 +3298,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -3214,9 +3340,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -3256,9 +3382,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -3339,15 +3465,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/pwsh"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/pwsh.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/pwsh.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/pwsh"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/pwsh"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/pwsh"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/pwsh.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/pwsh.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/pwsh"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh"
@@ -3465,15 +3591,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/pwsh"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/pwsh.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/pwsh.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/pwsh"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/pwsh"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/pwsh"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/pwsh.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/pwsh.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/pwsh"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh"
@@ -3591,15 +3717,15 @@ events:
       - "C:/Program Files/wooting-analog-sdk/pwsh.com"
       - "C:/Program Files/wooting-analog-sdk/pwsh.exe"
       - "C:/Program Files/wooting-analog-sdk/pwsh"
-      - "C:/Program Files/CMake/bin/pwsh.com"
-      - "C:/Program Files/CMake/bin/pwsh.exe"
-      - "C:/Program Files/CMake/bin/pwsh"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/pwsh.com"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/pwsh.exe"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/pwsh"
       - "C:/Program Files/nodejs/pwsh.com"
       - "C:/Program Files/nodejs/pwsh.exe"
       - "C:/Program Files/nodejs/pwsh"
+      - "C:/Program Files/CMake/bin/pwsh.com"
+      - "C:/Program Files/CMake/bin/pwsh.exe"
+      - "C:/Program Files/CMake/bin/pwsh"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh.com"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh.exe"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/pwsh"
@@ -3678,9 +3804,9 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -3700,7 +3826,7 @@ events:
     backtrace:
       - "vcpkg/scripts/buildsystems/vcpkg.cmake:193 (find_program)"
       - "vcpkg/scripts/buildsystems/vcpkg.cmake:621 (z_vcpkg_set_powershell_path)"
-      - "CMakeLists.txt:12 (add_executable)"
+      - "CMakeLists.txt:13 (add_executable)"
     mode: "program"
     variable: "Z_VCPKG_BUILTIN_POWERSHELL_PATH"
     description: "Path to a program."
@@ -3735,9 +3861,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -3777,9 +3903,9 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/Docker/Docker/resources/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/dotnet/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -3819,9 +3945,9 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/wooting-analog-sdk/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/scala-cli-x86_64-pc-win32/"
       - "C:/Program Files/nodejs/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/p3NgR/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/p3NgR/AppData/Local/Microsoft/WindowsApps/"
@@ -3902,15 +4028,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/wooting-analog-sdk/powershell"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/powershell.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/powershell.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/powershell"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/scala-cli-x86_64-pc-win32/powershell"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/nodejs/powershell"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/powershell.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/powershell.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Program Files/CMake/bin/powershell"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/powershell"
@@ -4028,15 +4154,15 @@ events:
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/wooting-analog-sdk/powershell"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/powershell.com"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/powershell.exe"
-      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/powershell"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/scala-cli-x86_64-pc-win32/powershell"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/nodejs/powershell"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/powershell.com"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/powershell.exe"
+      - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Program Files/CMake/bin/powershell"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/powershell.com"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/powershell.exe"
       - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/Users/p3NgR/AppData/Local/Programs/Python/Python313/Scripts/powershell"
@@ -4158,146 +4284,6 @@ events:
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files\\wooting-analog-sdk\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\p3NgR\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\Users\\p3NgR\\.dotnet\\tools"
-        - "C:\\Users\\p3NgR\\AppData\\Roaming\\npm"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files/saivox-engine"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files/saivox-engine"
-      CMAKE_FIND_ROOT_PATH: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug;C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
-      - "CMakeLists.txt:11 (find_package)"
-    name: "glm"
-    configs:
-      -
-        filename: "glm.cps"
-        kind: "cps"
-      -
-        filename: "glmConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "glm-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "glm"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/lib/cps/glm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/share/cps/glm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/glm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/lib/cps/glm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug/share/cps/glm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/glmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/glm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/lib/cps/glm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/share/cps/glm.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found:
-      path: "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/share/glm/glmConfig.cmake"
-      mode: "config"
-      version: "1.0.3"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows/debug"
-        - "C:/Users/p3NgR/Documents/repos/cpp/saivox-engine/vcpkg/installed/x64-windows"
-      ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
-        - "C:\\Users\\p3NgR\\AppData\\Local\\Programs\\Microsoft VS Code"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:\\Program Files\\wooting-analog-sdk\\"
         - "C:\\Program Files\\scala-cli-x86_64-pc-win32\\"
         - "C:\\Program Files\\nodejs\\"
         - "C:\\Program Files\\CMake\\bin"
@@ -4308,7 +4294,6 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\p3NgR\\.dotnet\\tools"
         - "C:\\Users\\p3NgR\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/saivox-engine"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"

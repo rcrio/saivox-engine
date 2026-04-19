@@ -6,6 +6,7 @@
 #include <glm/gtc/type_ptr.hpp> 
 
 #include "Renderer.h"
+#include "Camera.h"
 
 
 Renderer::Renderer() {
@@ -87,15 +88,10 @@ void Renderer::SetupShaders() {
     glDeleteShader(fragmentShader);
 }
 
-void Renderer::Draw(const Mesh& mesh,
-                    const glm::mat4& view,
-                    const glm::mat4& projection,
-                    float r, float g, float b)
-{
+void Renderer::Draw(const Mesh& mesh, float r, float g, float b) {
     glUseProgram(shaderProgram);
 
     glm::mat4 model = glm::mat4(1.0f);
-
     glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
     glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
     glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
@@ -103,7 +99,12 @@ void Renderer::Draw(const Mesh& mesh,
     glUniform4f(uColorLocation, r, g, b, 1.0f);
 
     glBindVertexArray(mesh.GetVAO());
-    // REFACTOR NOTE: 36 is a magic number here
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
+}
+
+void Renderer::BeginFrame(const Camera& camera, float aspectRatio) {
+    // COPY camera state ONCE per frame
+    view = camera.GetViewMatrix();
+    projection = camera.GetProjectionMatrix(aspectRatio);
 }

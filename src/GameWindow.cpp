@@ -5,10 +5,11 @@
 #include "GameWindow.h"
 #include "Game.h"
 #include "InputState.h"
+#include "InputManager.h"
 
 
 GameWindow::GameWindow() {
-    Initialize();
+    Initialize();    
 }
 
 GameWindow::~GameWindow() {
@@ -20,8 +21,8 @@ GameWindow::~GameWindow() {
  * the main game loop, and then runs the main game loop.
  */
 void GameWindow::Run() {
+    // It'd be nice to take game out but game currently does some graphics and cant be
     Game game;
-    
     float lastFrame = 0.0f;
 
     // -- MAIN GAME LOOP --
@@ -32,36 +33,20 @@ void GameWindow::Run() {
 
         glfwPollEvents(); 
         
-        // REFACTOR NOTE: Should move to InputManager later
-        InputState input;
+        inputManager.Update(window);
 
-        bool currentEsc = glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS;
-        bool currentEnter = glfwGetKey(window, GLFW_KEY_ENTER) == GLFW_PRESS;
-
-        // hold state (for movement etc.)
-        input.W = glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS;
-        input.A = glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS;
-        input.S = glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS;
-        input.D = glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS;
-
-        // raw state
-        input.Esc = currentEsc;
-        input.Enter = currentEnter;
-
-        // TAP (edge detection)
-        input.EscPressedThisFrame = currentEsc && !prevEsc;
-        input.EnterPressedThisFrame = currentEnter && !prevEnter;
-
-        // store for next frame
-        prevEsc = currentEsc;
-        prevEnter = currentEnter;
-
-
-        game.Update(deltaTime, input); 
+        game.Update(deltaTime, inputManager.GetInput()); 
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+        int width, height;
+        glfwGetFramebufferSize(window, &width, &height);
+
+        float aspect = (float)width / (float)height;
         
-        game.Draw();
+        game.SetupMesh();
+        
+        game.Draw(aspect);
         
         glfwSwapBuffers(window);
     }
@@ -99,19 +84,10 @@ void GameWindow::Initialize() {
         throw std::runtime_error("Failed to initialize GLAD!");
     }
 
-    /* REFACTOR: Camera stuff that ill look at later
-    glfwSetKeyCallback(window, InputManager::KeyCallback);
-    glfwSetCursorPosCallback(window, InputManager::MouseCallback);
-
-    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-    glViewport(0, 0, 1600, 900);
-    */
-
     glEnable(GL_DEPTH_TEST);
 
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
     
-
     std::cout << "Success!" << std::endl;
     PrintVersion();
 }

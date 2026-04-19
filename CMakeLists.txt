@@ -18,6 +18,7 @@ add_executable(saivox-engine
     src/Renderer.cpp
     src/Mesh.cpp
     src/Camera.cpp
+    src/InputManager.cpp
 )
 
 target_include_directories(saivox-engine PRIVATE include)

@@ -2,6 +2,8 @@
 #define SAIVOX_ENGINE_GAMEWINDOW_H
 
 #include <GLFW/glfw3.h>
+#include "InputManager.h"
+#include "Game.h"
 
 class GameWindow {
 public:
@@ -15,14 +17,14 @@ public:
     GameWindow& operator=(const GameWindow&) = delete;
 
 private:
-    GLFWwindow* window;
     void Initialize();
     void Cleanup();
     void PrintVersion();
 
-    // REFACTOR NOTE: Should move to InputManager soon
-    bool prevEsc = false;
-    bool prevEnter = false;
+    GLFWwindow* window;
+    // Game game;
+    InputManager inputManager;
+    
 };
 
 #endif

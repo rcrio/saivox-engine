@@ -20,14 +20,11 @@ public:
 
     void SetupShaders();
 
-    void Draw(const Mesh& mesh,
-                    const glm::mat4& view,
-                    const glm::mat4& projection,
-                    float r, float g, float b);
+    void Draw(const Mesh& mesh, float r, float g, float b);
 
     void SetViewProjection(const glm::mat4& view, const glm::mat4& projection);
 
-    void BeginFrame(const Camera& camera);
+    void BeginFrame(const Camera& camera, float aspectRatio);
 
 private:
     const char* vertexShaderSource;
@@ -41,6 +38,10 @@ private:
     int modelLoc;
     int viewLoc;
     int projectionLoc;
+
+    // Camera related
+    glm::mat4 view;
+    glm::mat4 projection;
 };
 
 #endif
