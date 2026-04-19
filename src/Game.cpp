@@ -7,13 +7,8 @@
 Game::Game() {
     currentState = State::MENU;
     renderer = std::make_unique<Renderer>();
-    camera = std::make_unique<Camera>();
-    /*
-    camera = std::make_unique<Camera>(glm::vec3(0.0f, 0.0f, 3.0f));
-    */
-
     renderer->SetupShaders();
-    
+    camera = std::make_unique<Camera>();
     SetupMesh();
 }
 
@@ -24,7 +19,7 @@ bool Game::IsRunning() const {
 void Game::Update(float deltaTime, const InputState& input)
 {
     switch (currentState) {
-        case State::MENU: {
+        case State::MENU:
             if (input.Enter) {
                 currentState = State::PLAYING;
             }
@@ -32,9 +27,9 @@ void Game::Update(float deltaTime, const InputState& input)
                 currentState = State::EXIT;
             }
             break;
-        }
 
-        case State::PLAYING: {
+        case State::PLAYING:
+        {
             float speed = 3.0f * deltaTime;
 
             if (input.W)
@@ -57,10 +52,9 @@ void Game::Update(float deltaTime, const InputState& input)
                 currentState = State::MENU;
             break;
         }
-
-        case State::EXIT: {
+        
+        case State::EXIT:
             return;
-        }
 
         default:
             return;
@@ -70,7 +64,6 @@ void Game::Update(float deltaTime, const InputState& input)
 void Game::Draw() {
     switch (currentState) {
         case State::MENU:
-            
             break;
 
         case State::PLAYING:
@@ -88,15 +81,15 @@ void Game::Draw() {
             }
             break;
 
-        case State::EXIT: {
+        case State::EXIT:
             return;
-        }
 
         default:
             return;
     }
 }
 
+// REFACTOR NOTE: Should move this out into perhaps a mesh manager
 void Game::SetupMesh()
 {
     // 8 unique corners of a cube

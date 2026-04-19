@@ -103,6 +103,7 @@ void Renderer::Draw(const Mesh& mesh,
     glUniform4f(uColorLocation, r, g, b, 1.0f);
 
     glBindVertexArray(mesh.GetVAO());
+    // REFACTOR NOTE: 36 is a magic number here
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
 }

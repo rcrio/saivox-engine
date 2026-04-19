@@ -6,6 +6,7 @@
 #include <glm/gtc/type_ptr.hpp> 
 
 #include "Mesh.h"
+#include "Camera.h"
 
 class Renderer {
 public:
@@ -26,6 +27,8 @@ public:
 
     void SetViewProjection(const glm::mat4& view, const glm::mat4& projection);
 
+    void BeginFrame(const Camera& camera);
+
 private:
     const char* vertexShaderSource;
     const char* fragmentShaderSource;
@@ -33,6 +36,8 @@ private:
     unsigned int fragmentShader;
     unsigned int shaderProgram;
     unsigned int uColorLocation;
+
+    // Shader related
     int modelLoc;
     int viewLoc;
     int projectionLoc;
