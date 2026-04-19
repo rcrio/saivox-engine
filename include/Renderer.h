@@ -1,6 +1,8 @@
 #ifndef SAIVOX_ENGINE_RENDERER_H
 #define SAIVOX_ENGINE_RENDERER_H
 
+#include <string>
+
 class Renderer {
 public:
     Renderer();

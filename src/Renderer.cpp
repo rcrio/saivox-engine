@@ -3,6 +3,7 @@
 
 #include "Renderer.h"
 #include <iostream>
+#include <string>
 
 Renderer::Renderer() {
     // GLSL (Graphics Library Shading Language) shader source setup.
@@ -16,14 +17,14 @@ Renderer::Renderer() {
         "void main() { FragColor = uColor; }\0";
 }
 
-unsigned int CompileShader(unsigned int shaderType, const char* shaderSource) {
+unsigned int Renderer::CompileShader(unsigned int shaderType, const char* shaderSource) {
     unsigned int shader = glCreateShader(shaderType);
     glShaderSource(shader, 1, &shaderSource, NULL);
     glCompileShader(shader);
     return shader;
 }
 
-void CheckShader(unsigned int shader, const std::string& name) {
+void Renderer::CheckShader(unsigned int shader, const std::string& name) {
     int success;
     char infoLog[512];
 
@@ -36,7 +37,7 @@ void CheckShader(unsigned int shader, const std::string& name) {
     }
 }
 
-unsigned int CompileProgram(unsigned int vertexShader, unsigned int fragmentShader) {
+unsigned int Renderer::CompileProgram(unsigned int vertexShader, unsigned int fragmentShader) {
     unsigned int shaderProgram = glCreateProgram();
     glAttachShader(shaderProgram, vertexShader);
     glAttachShader(shaderProgram, fragmentShader);
@@ -44,7 +45,7 @@ unsigned int CompileProgram(unsigned int vertexShader, unsigned int fragmentShad
     return shaderProgram;
 }
 
-void CheckProgram(unsigned int shaderProgram) {
+void Renderer::CheckProgram(unsigned int shaderProgram) {
     int success;
     char infoLog[512];
 

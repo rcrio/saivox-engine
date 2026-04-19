@@ -1,0 +1,2 @@
+Currently the structure is:
+Main has GameWindow -> Game -> Renderer
