@@ -25,21 +25,36 @@ void GameWindow::Run() {
     float lastFrame = 0.0f;
 
     // -- MAIN GAME LOOP --
-    while (!glfwWindowShouldClose(window)) {
+    while (!glfwWindowShouldClose(window) && game.IsRunning()) {
         float currentFrame = glfwGetTime();
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
 
         glfwPollEvents(); 
-
+        
+        // REFACTOR NOTE: Should move to InputManager later
         InputState input;
 
+        bool currentEsc = glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS;
+        bool currentEnter = glfwGetKey(window, GLFW_KEY_ENTER) == GLFW_PRESS;
+
+        // hold state (for movement etc.)
         input.W = glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS;
         input.A = glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS;
         input.S = glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS;
         input.D = glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS;
-        input.Enter = glfwGetKey(window, GLFW_KEY_ENTER) == GLFW_PRESS;
-        input.Esc = glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS;
+
+        // raw state
+        input.Esc = currentEsc;
+        input.Enter = currentEnter;
+
+        // TAP (edge detection)
+        input.EscPressedThisFrame = currentEsc && !prevEsc;
+        input.EnterPressedThisFrame = currentEnter && !prevEnter;
+
+        // store for next frame
+        prevEsc = currentEsc;
+        prevEnter = currentEnter;
 
 
         game.Update(deltaTime, input); 

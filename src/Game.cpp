@@ -17,12 +17,24 @@ Game::Game() {
     SetupMesh();
 }
 
+bool Game::IsRunning() const {
+    return currentState != State::EXIT;
+}
+
 void Game::Update(float deltaTime, const InputState& input)
 {
-    switch (currentState)
-    {
-        case State::MENU:
-        {
+    switch (currentState) {
+        case State::MENU: {
+            if (input.Enter) {
+                currentState = State::PLAYING;
+            }
+            if (input.EscPressedThisFrame) {
+                currentState = State::EXIT;
+            }
+            break;
+        }
+
+        case State::PLAYING: {
             float speed = 3.0f * deltaTime;
 
             if (input.W)
@@ -40,24 +52,29 @@ void Game::Update(float deltaTime, const InputState& input)
 
             if (input.A)
                 camera->SetPosition(camera->GetPosition() - right * speed);
-
+            
+            if (input.EscPressedThisFrame)
+                currentState = State::MENU;
             break;
         }
 
-        case State::PLAYING:
-        {
-            break;
+        case State::EXIT: {
+            return;
         }
 
         default:
-            break;
+            return;
     }
 }
 
 void Game::Draw() {
     switch (currentState) {
         case State::MENU:
-             glm::mat4 view = camera->GetViewMatrix();
+            
+            break;
+
+        case State::PLAYING:
+            glm::mat4 view = camera->GetViewMatrix();
 
             glm::mat4 projection = glm::perspective(
                 glm::radians(45.0f),
@@ -65,18 +82,18 @@ void Game::Draw() {
                 0.1f,
                 100.0f
             );
-            
+                
             if (cubeMesh) {
                 renderer->Draw(*cubeMesh, view, projection, 1.0f, 0.5f, 0.2f);
             }
-            
             break;
 
-        case State::PLAYING:
-            break;
+        case State::EXIT: {
+            return;
+        }
 
         default:
-            break;
+            return;
     }
 }
 

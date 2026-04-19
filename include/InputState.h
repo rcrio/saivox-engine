@@ -7,4 +7,8 @@ struct InputState {
     bool D = false;
     bool Enter = false;
     bool Esc = false;
+
+    bool EnterPressedThisFrame = false;
+    bool EscPressedThisFrame = false;
+    
 };

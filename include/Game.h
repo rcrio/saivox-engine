@@ -20,6 +20,7 @@ public:
 
     void Update(float deltaTime, const InputState& input);
     void Draw();
+    bool IsRunning() const;
     
 private:
     void SetupMesh();
@@ -31,6 +32,8 @@ private:
     std::unique_ptr<Mesh> cubeMesh;
 
     std::unique_ptr<Renderer> renderer;
+
+
 };
 
 

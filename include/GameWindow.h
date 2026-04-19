@@ -19,6 +19,10 @@ private:
     void Initialize();
     void Cleanup();
     void PrintVersion();
+
+    // REFACTOR NOTE: Should move to InputManager soon
+    bool prevEsc = false;
+    bool prevEnter = false;
 };
 
 #endif
