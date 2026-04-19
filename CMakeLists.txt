@@ -13,6 +13,8 @@ add_executable(saivox-engine
     src/glad/glad.c
     src/main.cpp
     src/GameWindow.cpp
+    src/Game.cpp
+    src/Renderer.cpp
 )
 
 target_include_directories(saivox-engine PRIVATE include)
