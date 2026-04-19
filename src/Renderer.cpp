@@ -1,15 +1,23 @@
 #include <glad/glad.h> // Needs to be in this order.
 #include <GLFW/glfw3.h>
-
-#include "Renderer.h"
 #include <iostream>
 #include <string>
+#include <glm/glm.hpp> 
+#include <glm/gtc/type_ptr.hpp> 
+
+#include "Renderer.h"
+
 
 Renderer::Renderer() {
     // GLSL (Graphics Library Shading Language) shader source setup.
     vertexShaderSource = "#version 330 core\n"
         "layout (location = 0) in vec3 aPos;\n"
-        "void main() { gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0); }\0";
+        "uniform mat4 model;\n"
+        "uniform mat4 view;\n"
+        "uniform mat4 projection;\n"
+        "void main() {\n"
+        "    gl_Position = projection * view * model * vec4(aPos, 1.0);\n"
+        "}\0";
 
     fragmentShaderSource = "#version 330 core\n"
         "out vec4 FragColor;\n"
@@ -70,22 +78,31 @@ void Renderer::SetupShaders() {
 
     uColorLocation = glGetUniformLocation(shaderProgram, "uColor");
 
+    modelLoc = glGetUniformLocation(shaderProgram, "model");
+    viewLoc = glGetUniformLocation(shaderProgram, "view");
+    projectionLoc = glGetUniformLocation(shaderProgram, "projection");
+
     // Cleanup for memory
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 }
 
-void Renderer::Draw(const Mesh& mesh, float r, float g, float b)
+void Renderer::Draw(const Mesh& mesh,
+                    const glm::mat4& view,
+                    const glm::mat4& projection,
+                    float r, float g, float b)
 {
-    // Use shader
     glUseProgram(shaderProgram);
-    
-    // Set uniform
+
+    glm::mat4 model = glm::mat4(1.0f);
+
+    glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+    glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+
     glUniform4f(uColorLocation, r, g, b, 1.0f);
 
-    // Use mesh (VAO is inside it now)
-    glUseProgram(shaderProgram);
     glBindVertexArray(mesh.GetVAO());
-    glDrawArrays(GL_TRIANGLES, 0, 3);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
     glBindVertexArray(0);
 }

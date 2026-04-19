@@ -5,6 +5,8 @@
 #include <GLFW/glfw3.h>
 
 #include "Renderer.h"
+#include "InputState.h"
+#include "Camera.h"
 
 class Game {
 public:
@@ -16,7 +18,7 @@ public:
 
     Game();
 
-    void Update(float deltaTime);
+    void Update(float deltaTime, const InputState& input);
     void Draw();
     
 private:
@@ -24,10 +26,11 @@ private:
 
     State currentState;
 
-    std::unique_ptr<Mesh> triangle1;
-    std::unique_ptr<Mesh> triangle2;
+    std::unique_ptr<Camera> camera;
+    
+    std::unique_ptr<Mesh> cubeMesh;
 
-    Renderer renderer;
+    std::unique_ptr<Renderer> renderer;
 };
 
 

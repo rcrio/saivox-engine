@@ -3,7 +3,7 @@
 
 class Mesh {
 public:
-    Mesh(float* vertices, size_t size);
+    Mesh(float* vertices, size_t size, unsigned int* indices, size_t iSize);
     ~Mesh();
 
     unsigned int GetVAO() const;
@@ -11,6 +11,7 @@ public:
 private:
     unsigned int vao;
     unsigned int vbo;
+    unsigned int ebo;
 };
 
 #endif

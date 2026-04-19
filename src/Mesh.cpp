@@ -3,35 +3,30 @@
 
 #include "Mesh.h"
 
-Mesh::Mesh(float* vertices, size_t size)
+// Updated Mesh Constructor
+Mesh::Mesh(float* vertices, size_t vSize, unsigned int* indices, size_t iSize)
 {
-    // Vertex Array Object and Vertex Buffer Object
-    vao = 0;
-    vbo = 0;
-
-    // Creates GPU objects
     glGenVertexArrays(1, &vao);
     glGenBuffers(1, &vbo);
+    glGenBuffers(1, &ebo); // Create EBO
 
-    // Bind VAO
     glBindVertexArray(vao);
 
-    // Uploads vertex data into VBO
+    // VBO Setup
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    glBufferData(GL_ARRAY_BUFFER, size, vertices, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, vSize, vertices, GL_STATIC_DRAW);
 
-    // Stores attribute layout in currently bound VAO
-    glVertexAttribPointer(
-        0, 3, GL_FLOAT, GL_FALSE,
-        3 * sizeof(float),
-        (void*)0
-    );
+    // EBO Setup - This must happen while VAO is bound
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, iSize, indices, GL_STATIC_DRAW);
 
+    // Attribute Pointers
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
-    // Unbind for safety
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
+    // Note: Do NOT unbind the EBO before unbinding the VAO. 
+    // The VAO stores the EBO binding.
+    glBindVertexArray(0); 
 }
 
 Mesh::~Mesh()

@@ -4,7 +4,7 @@
 
 #include "GameWindow.h"
 #include "Game.h"
-
+#include "InputState.h"
 
 
 GameWindow::GameWindow() {
@@ -24,25 +24,30 @@ void GameWindow::Run() {
     
     float lastFrame = 0.0f;
 
-    // Game loop here.
+    // -- MAIN GAME LOOP --
     while (!glfwWindowShouldClose(window)) {
-        // 1. Calculate deltaTime (time since last frame)
         float currentFrame = glfwGetTime();
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
 
-        // 2. Input/Events
         glfwPollEvents(); 
 
-        // 3. Logic
-        game.Update(deltaTime); 
+        InputState input;
 
-        // 4. Rendering
-        glClear(GL_COLOR_BUFFER_BIT); 
+        input.W = glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS;
+        input.A = glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS;
+        input.S = glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS;
+        input.D = glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS;
+        input.Enter = glfwGetKey(window, GLFW_KEY_ENTER) == GLFW_PRESS;
+        input.Esc = glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS;
+
+
+        game.Update(deltaTime, input); 
+
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
         game.Draw();
         
-        // Needs to update current presented buffer
         glfwSwapBuffers(window);
     }
 }
@@ -79,7 +84,18 @@ void GameWindow::Initialize() {
         throw std::runtime_error("Failed to initialize GLAD!");
     }
 
+    /* REFACTOR: Camera stuff that ill look at later
+    glfwSetKeyCallback(window, InputManager::KeyCallback);
+    glfwSetCursorPosCallback(window, InputManager::MouseCallback);
+
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glViewport(0, 0, 1600, 900);
+    */
+
+    glEnable(GL_DEPTH_TEST);
+
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+    
 
     std::cout << "Success!" << std::endl;
     PrintVersion();

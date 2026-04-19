@@ -2,6 +2,9 @@
 #define SAIVOX_ENGINE_RENDERER_H
 
 #include <string>
+#include <glm/glm.hpp> 
+#include <glm/gtc/type_ptr.hpp> 
+
 #include "Mesh.h"
 
 class Renderer {
@@ -16,7 +19,12 @@ public:
 
     void SetupShaders();
 
-    void Draw(const Mesh& mesh, float r, float g, float b);
+    void Draw(const Mesh& mesh,
+                    const glm::mat4& view,
+                    const glm::mat4& projection,
+                    float r, float g, float b);
+
+    void SetViewProjection(const glm::mat4& view, const glm::mat4& projection);
 
 private:
     const char* vertexShaderSource;
@@ -25,6 +33,9 @@ private:
     unsigned int fragmentShader;
     unsigned int shaderProgram;
     unsigned int uColorLocation;
+    int modelLoc;
+    int viewLoc;
+    int projectionLoc;
 };
 
 #endif
