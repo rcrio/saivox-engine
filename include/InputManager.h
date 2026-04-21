@@ -1,7 +1,9 @@
 #pragma once
 
-#include "InputState.h"
+#include <glad/glad.h> // GLAD needs to be before GLFW
 #include <GLFW/glfw3.h>
+
+#include "InputState.h"
 
 class InputManager {
 public:

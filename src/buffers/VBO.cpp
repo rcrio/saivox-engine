@@ -1,30 +1,30 @@
-#include "VBO.h"
+#include "buffers/VBO.h"
 
-VBO::VBO(const void* vertices, unsigned int size_of_vertices)
+// Vertices could be struct or float array
+VBO::VBO()
 {
     glGenBuffers(1, &id);
-    glBindBuffer(GL_ARRAY_BUFFER, id);
-    glBufferData(GL_ARRAY_BUFFER, size_of_vertices, vertices, GL_STATIC_DRAW);
+    // glBindBuffer(GL_ARRAY_BUFFER, id);
+    // glBufferData(GL_ARRAY_BUFFER, size_of_vertices, vertices, GL_STATIC_DRAW);
 }
-
 
 VBO::~VBO()
 {
     glDeleteBuffers(1, &id);
 }
 
-/**
- * @brief Binds the VBO.
- */
 void VBO::Bind() const
 {
     glBindBuffer(GL_ARRAY_BUFFER, id);
 }
 
-/**
- * @brief Unbinds the VBO.
- */
 void VBO::Unbind() const
 {
     glBindBuffer(GL_ARRAY_BUFFER, 0);
+}
+
+void VBO::SetDataAndBind(const void* vertices, unsigned int size_of_vertices)
+{
+    glBindBuffer(GL_ARRAY_BUFFER, id);
+    glBufferData(GL_ARRAY_BUFFER, size_of_vertices, vertices, GL_STATIC_DRAW);
 }

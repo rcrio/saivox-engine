@@ -2,11 +2,12 @@
 #define SAIVOX_ENGINE_GAME_H
 
 #include <memory>
-#include <GLFW/glfw3.h>
 
+
+#include "Shader.h"
 #include "Renderer.h"
 #include "InputState.h"
-#include "Camera.h"
+
 
 class Game {
 public:
@@ -17,25 +18,23 @@ public:
     };
 
     Game();
-
+    void Init();
     void Update(float deltaTime, const InputState& input);
     void Draw(float aspect);
     bool IsRunning() const;
     // REFACTOR NOTE: Move this out
-    void SetupMesh();
-    void UpdateCamera(float deltaTime, const InputState& input);
-    void UpdateCameraLook(const InputState& input);
-    
-    
+    void SetUpMesh();
+
 private:
     State currentState;
 
-    std::unique_ptr<Camera> camera;
+    Shader shader;
+
+    Renderer renderer;
     
     std::unique_ptr<Mesh> cubeMesh;
 
-    // REFACTOR NOTE: Don't use unique ptr here?
-    std::unique_ptr<Renderer> renderer;
+    
 };
 
 

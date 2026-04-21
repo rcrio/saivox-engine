@@ -17,11 +17,11 @@ add_executable(saivox-engine
     src/Game.cpp
     src/Renderer.cpp
     src/Mesh.cpp
-    src/Camera.cpp
     src/InputManager.cpp
-    src/VAO.cpp
-    src/VBO.cpp
-    src/EBO.cpp
+    src/Shader.cpp
+    src/buffers/VAO.cpp
+    src/buffers/VBO.cpp
+    src/buffers/EBO.cpp
 )
 
 target_include_directories(saivox-engine PRIVATE include)

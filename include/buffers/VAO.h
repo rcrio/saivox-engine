@@ -1,32 +1,24 @@
 #pragma once
 
-/**
- * @brief Configures vertex attributes.
- * 
- * This VAO structure is mostly used for abstraction and organisation of code.
- * In reality and most tutorials, you can do this by
- * raw OpenGL calls.
- * 
- * * Example usage:
- * @code
- * vao.Bind();
- * vbo.Bind();
- * vao.LinkAttrib(0, 3, GL_FLOAT, false, sizeof(Vertex), (void*)0);
- * vbo.Unbind(); # Optional safety, can refactor and remove to reduce calls
- * vao.Unbind(); # Optional safety, can refactor and remove to reduce calls
- * @endcode
- */
-
 class VAO {
 public:
+    /// @brief Creates a Vertex Array Object (VAO).
     VAO();
+
+    /// @brief Deletes the VAO.
     ~VAO();
 
+    /// @brief Binds this VAO as the current vertex array object.
     void Bind() const;
+
+    /// @brief Unbinds the current vertex array object.
     void Unbind() const;
 
+    /// @brief Links a vertex attribute layout to this VAO.
+    /// @param layout The attribute layout location in the shader (e.g., 0 for position).
     void LinkAttrib(unsigned int layout);
 
 private:
+    /// @brief OpenGL vertex array object ID.
     unsigned int id;
 };

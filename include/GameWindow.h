@@ -1,7 +1,6 @@
 #ifndef SAIVOX_ENGINE_GAMEWINDOW_H
 #define SAIVOX_ENGINE_GAMEWINDOW_H
 
-#include <GLFW/glfw3.h>
 #include "InputManager.h"
 #include "Game.h"
 
@@ -11,8 +10,6 @@ public:
     ~GameWindow();
 
     void Run();
-
-    
 
     // Prevents copying
     GameWindow(const GameWindow&) = delete;
@@ -24,11 +21,10 @@ private:
     static void FrameBufferSizeCallback(GLFWwindow* window, int width, int height);
     void Cleanup();
     void PrintVersion();
-    
 
     GLFWwindow* window;
-    // Game game;
     InputManager inputManager;
+    Game game;
     
 };
 

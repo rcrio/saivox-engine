@@ -1,5 +1,11 @@
-#include "InputManager.h"
+
+#include <glad/glad.h> // GLAD needs to be before GLFW
+#include <GLFW/glfw3.h>
+
 #include <iostream>
+
+#include "InputManager.h"
+
 
 InputManager::InputManager() {
     std::cout << "InputManager created\n";

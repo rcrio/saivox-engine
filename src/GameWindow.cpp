@@ -22,32 +22,35 @@ GameWindow::~GameWindow() {
  */
 void GameWindow::Run() {
     // It'd be nice to take game out but game currently does some graphics and cant be
-    Game game;
+    game.Init();
     float lastFrame = 0.0f;
 
     // -- MAIN GAME LOOP --
     while (!glfwWindowShouldClose(window) && game.IsRunning()) {
-        
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
+        // DeltaTime calculations, can refactor and move to another method
         float currentFrame = glfwGetTime();
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
         
+        // Input
         inputManager.processInput(window);
+    
+        // Render
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-
+        // Update
         game.Update(deltaTime, inputManager.GetInput()); 
 
-        
-
+        // Refactor most likely, for non stretching graphics
         int width, height;
         glfwGetFramebufferSize(window, &width, &height);
-
         float aspect = (float)width / (float)height;
-        
+
+        // Draw
         game.Draw(aspect);
-        
+
+        // GLFW: Swap buffers and poll IO events
         glfwSwapBuffers(window);
         glfwPollEvents(); 
     }

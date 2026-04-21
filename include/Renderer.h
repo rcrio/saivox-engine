@@ -6,27 +6,12 @@
 #include <glm/gtc/type_ptr.hpp> 
 
 #include "Mesh.h"
-#include "Camera.h"
 
 class Renderer {
 public:
     Renderer();
 
-    unsigned int CompileShader(unsigned int shaderType, const char* shaderSource);
-    void CheckShader(unsigned int shader, const std::string& name);
-
-    unsigned int CompileProgram(unsigned int vertexShader, unsigned int fragmentShader);
-    void CheckProgram(unsigned int shaderProgram);
-
-    void SetupShaders();
-
-    void DeleteShaders();
-
-    void Draw(const Mesh& mesh, float r, float g, float b);
-
-    void SetViewProjection(const glm::mat4& view, const glm::mat4& projection);
-
-    void BeginFrame(const Camera& camera, float aspectRatio);
+    void Draw(const unsigned int shaderProgram, const Mesh& mesh);
 
 private:
     const char* vertexShaderSource;
@@ -35,15 +20,6 @@ private:
     unsigned int fragmentShader;
     unsigned int shaderProgram;
     unsigned int uColorLocation;
-
-    // Shader related
-    int modelLoc;
-    int viewLoc;
-    int projectionLoc;
-
-    // Camera related
-    glm::mat4 view;
-    glm::mat4 projection;
 };
 
 #endif
