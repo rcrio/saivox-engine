@@ -19,6 +19,9 @@ add_executable(saivox-engine
     src/Mesh.cpp
     src/Camera.cpp
     src/InputManager.cpp
+    src/VAO.cpp
+    src/VBO.cpp
+    src/EBO.cpp
 )
 
 target_include_directories(saivox-engine PRIVATE include)

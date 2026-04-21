@@ -10,5 +10,7 @@ struct InputState {
 
     bool EnterPressedThisFrame = false;
     bool EscPressedThisFrame = false;
-    
+
+    float mouseDeltaX = 0.0f;
+    float mouseDeltaY = 0.0f;
 };

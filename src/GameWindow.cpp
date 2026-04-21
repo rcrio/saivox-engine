@@ -27,28 +27,29 @@ void GameWindow::Run() {
 
     // -- MAIN GAME LOOP --
     while (!glfwWindowShouldClose(window) && game.IsRunning()) {
+        
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
         float currentFrame = glfwGetTime();
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
-
-        glfwPollEvents(); 
         
-        inputManager.Update(window);
+        inputManager.processInput(window);
+
 
         game.Update(deltaTime, inputManager.GetInput()); 
 
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        
 
         int width, height;
         glfwGetFramebufferSize(window, &width, &height);
 
         float aspect = (float)width / (float)height;
         
-        game.SetupMesh();
-        
         game.Draw(aspect);
         
         glfwSwapBuffers(window);
+        glfwPollEvents(); 
     }
 }
 
@@ -59,37 +60,60 @@ void GameWindow::Run() {
  * @return true if initialization succeeded, false otherwise.
  */
 void GameWindow::Initialize() {
-    std::cout << "Initializing game window... ";
+    std::cout << "=== Game window start ===\n";
 
+    std::cout << "Initializing GLFW... ";
     if (!glfwInit()) {
-        throw std::runtime_error("Failed to initialize GLFW!");
+        std::cout << "Failed!\n";
+    }
+    else {
+        std::cout << "Success!\n";
     }
 
     // Set version to 3.3 and core profile
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-
+    
+    // Create window
+    std::cout << "Initializing GLFW window object... ";
     window = glfwCreateWindow(1600, 900, "Saivox Engine", NULL, NULL);
     if (!window) {
+        std::cout << "Failed!\n";
         glfwTerminate();
-        throw std::runtime_error("Failed to create window!");
+    }
+    else {
+        std::cout << "Success!\n";
     }
 
+    // Set main context to the current window
     glfwMakeContextCurrent(window);
 
+    glfwSetFramebufferSizeCallback(window, FrameBufferSizeCallback);
+    
+    // Initialize GLAD
+    std::cout << "Initializing GLAD... ";
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+        std::cout << "Failed!\n";
         glfwDestroyWindow(window);
         glfwTerminate();
-        throw std::runtime_error("Failed to initialize GLAD!");
     }
+    else {
+        std::cout << "Success!\n";
+    }
+
+    glViewport(0, 0, 1600, 900);
 
     glEnable(GL_DEPTH_TEST);
 
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
     
-    std::cout << "Success!" << std::endl;
+    std::cout << "=== Game window end ===\n\n\n";
     PrintVersion();
+}
+
+void GameWindow::FrameBufferSizeCallback(GLFWwindow* window, int width, int height) {
+    glViewport(0, 0, width, height);
 }
 
 /**

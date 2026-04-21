@@ -12,14 +12,19 @@ public:
 
     void Run();
 
+    
+
     // Prevents copying
     GameWindow(const GameWindow&) = delete;
     GameWindow& operator=(const GameWindow&) = delete;
 
 private:
     void Initialize();
+    // Static needed to pass into glfwSetFramebufferSizeCallBack
+    static void FrameBufferSizeCallback(GLFWwindow* window, int width, int height);
     void Cleanup();
     void PrintVersion();
+    
 
     GLFWwindow* window;
     // Game game;

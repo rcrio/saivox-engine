@@ -2,9 +2,14 @@
 
 #include <glm/glm.hpp>
 
+#include "InputState.h"
+
 class Camera {
 public:
     Camera();
+
+    void ProcessMouse(float deltaX, float deltaY);
+    void ProcessKeyboard(float deltaTime, const InputState& input);
 
     glm::mat4 GetViewMatrix() const;
     glm::mat4 GetProjectionMatrix(float aspectRatio) const;
@@ -20,4 +25,7 @@ private:
     glm::vec3 position;
     glm::vec3 front;
     glm::vec3 up;
+
+    float yaw;
+    float pitch;
 };

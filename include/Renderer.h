@@ -20,6 +20,8 @@ public:
 
     void SetupShaders();
 
+    void DeleteShaders();
+
     void Draw(const Mesh& mesh, float r, float g, float b);
 
     void SetViewProjection(const glm::mat4& view, const glm::mat4& projection);

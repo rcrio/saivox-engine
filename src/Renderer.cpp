@@ -12,18 +12,27 @@
 Renderer::Renderer() {
     // GLSL (Graphics Library Shading Language) shader source setup.
     vertexShaderSource = "#version 330 core\n"
-        "layout (location = 0) in vec3 aPos;\n"
-        "uniform mat4 model;\n"
-        "uniform mat4 view;\n"
-        "uniform mat4 projection;\n"
-        "void main() {\n"
-        "    gl_Position = projection * view * model * vec4(aPos, 1.0);\n"
-        "}\0";
+    "layout (location = 0) in vec3 aPos;\n"
+    "void main()\n"
+    "{\n"
+    "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+    "}\0";
 
     fragmentShaderSource = "#version 330 core\n"
+    "out vec4 FragColor;\n"
+    "\n"
+    "void main()\n"
+    "{\n"
+    "    FragColor = vec4(1.0, 0.5, 0.2, 1.0);\n"
+    "}\n";
+    
+    
+    /*
+    "#version 330 core\n"
         "out vec4 FragColor;\n"
         "uniform vec4 uColor;\n" // Added uniform
         "void main() { FragColor = uColor; }\0";
+        */
 }
 
 unsigned int Renderer::CompileShader(unsigned int shaderType, const char* shaderSource) {
@@ -33,16 +42,19 @@ unsigned int Renderer::CompileShader(unsigned int shaderType, const char* shader
     return shader;
 }
 
-void Renderer::CheckShader(unsigned int shader, const std::string& name) {
+void Renderer::CheckShader(unsigned int shader, const std::string& shaderName) {
+    std::cout << "Check if " << shaderName  << " shader compilation worked... ";
+
     int success;
     char infoLog[512];
 
     glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
     if (!success) {
         glGetShaderInfoLog(shader, 512, NULL, infoLog);
-        throw std::runtime_error(
-            std::string(name + " shader failed!\n") + infoLog
-        );
+        std::cout << "Failed! \n" << infoLog << "\n";
+    }
+    else {
+        std::cout << "Success!\n";
     }
 }
 
@@ -55,52 +67,45 @@ unsigned int Renderer::CompileProgram(unsigned int vertexShader, unsigned int fr
 }
 
 void Renderer::CheckProgram(unsigned int shaderProgram) {
+    std::cout << "Checking if linking program worked... ";
     int success;
     char infoLog[512];
 
     glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
     if (!success) {
         glGetProgramInfoLog(shaderProgram, 512, 0, infoLog);
-        throw std::runtime_error(
-            std::string("Shader program linking failed!\n") + infoLog
-        );
+        std::cout << "Failed! \n" << infoLog << "\n";
+    }
+    else {
+        std::cout << "Success!\n";
     }
 }
 
 void Renderer::SetupShaders() {
     vertexShader = CompileShader(GL_VERTEX_SHADER, vertexShaderSource);
-    CheckShader(vertexShader, "Vertex Shader");
+    CheckShader(vertexShader, "Vertex");
 
     fragmentShader = CompileShader(GL_FRAGMENT_SHADER, fragmentShaderSource);
-    CheckShader(fragmentShader, "Fragment Shader");
+    CheckShader(fragmentShader, "Fragment");
     
     shaderProgram = CompileProgram(vertexShader, fragmentShader);
     CheckProgram(shaderProgram);
 
-    uColorLocation = glGetUniformLocation(shaderProgram, "uColor");
-
-    modelLoc = glGetUniformLocation(shaderProgram, "model");
-    viewLoc = glGetUniformLocation(shaderProgram, "view");
-    projectionLoc = glGetUniformLocation(shaderProgram, "projection");
-
     // Cleanup for memory
+    DeleteShaders();
+}
+
+void Renderer::DeleteShaders() {
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 }
 
 void Renderer::Draw(const Mesh& mesh, float r, float g, float b) {
     glUseProgram(shaderProgram);
-
-    glm::mat4 model = glm::mat4(1.0f);
-    glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
-    glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
-
-    glUniform4f(uColorLocation, r, g, b, 1.0f);
-
-    glBindVertexArray(mesh.GetVAO());
-    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
-    glBindVertexArray(0);
+    /*
+    glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+    */
 }
 
 void Renderer::BeginFrame(const Camera& camera, float aspectRatio) {

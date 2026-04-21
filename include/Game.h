@@ -23,6 +23,9 @@ public:
     bool IsRunning() const;
     // REFACTOR NOTE: Move this out
     void SetupMesh();
+    void UpdateCamera(float deltaTime, const InputState& input);
+    void UpdateCameraLook(const InputState& input);
+    
     
 private:
     State currentState;
@@ -31,6 +34,7 @@ private:
     
     std::unique_ptr<Mesh> cubeMesh;
 
+    // REFACTOR NOTE: Don't use unique ptr here?
     std::unique_ptr<Renderer> renderer;
 };
 
