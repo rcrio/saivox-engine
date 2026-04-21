@@ -19,6 +19,8 @@ add_executable(saivox-engine
     src/Mesh.cpp
     src/InputManager.cpp
     src/Shader.cpp
+    src/Texture.cpp
+    src/stb/stb.cpp
     src/buffers/VAO.cpp
     src/buffers/VBO.cpp
     src/buffers/EBO.cpp

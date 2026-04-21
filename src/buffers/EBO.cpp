@@ -1,3 +1,5 @@
+#include <glad/glad.h>
+
 #include "buffers/EBO.h"
 
 EBO::EBO()

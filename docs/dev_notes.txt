@@ -1,0 +1,3 @@
+Try to aim for lazy initialisation.
+Constructors should not create runtime related things.
+Comments are mainly in .h files, and include libs are in .cpp

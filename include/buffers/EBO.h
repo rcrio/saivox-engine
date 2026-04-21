@@ -1,11 +1,11 @@
 #pragma once
 
-#include <glad/glad.h>
+
 
 class EBO {
 public:
     /// @brief Creates an Element Buffer Object (EBO) and uploads index data to the GPU.
-    
+    /// Also populates this object's ID.
     EBO();
     
     /// @brief Deletes the EBO.

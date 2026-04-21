@@ -18,8 +18,23 @@ void VAO::Unbind() const {
     glBindVertexArray(0);
 }
 
-void VAO::LinkAttrib(unsigned int layout)
-{   // Index, size (2d or 3d), type, normalized, stride, pointer
-    glVertexAttribPointer(layout, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+void VAO::LinkAttribute(
+    unsigned int layout,
+    int componentCount,
+    unsigned int type,
+    bool normalized,
+    size_t stride,
+    const void* offset
+)
+{   
+    glVertexAttribPointer(
+        layout,
+        componentCount,
+        type,
+        normalized,
+        stride,
+        offset
+    );
+
     glEnableVertexAttribArray(layout);
 }

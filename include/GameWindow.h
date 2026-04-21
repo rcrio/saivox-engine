@@ -9,6 +9,10 @@ public:
     GameWindow();
     ~GameWindow();
 
+    /**
+     * @brief Initializes GLFW dependencies, prepares needed variables for
+     * the main game loop, and then runs the main game loop.
+     */
     void Run();
 
     // Prevents copying

@@ -5,11 +5,17 @@
 
 Mesh::Mesh(float* vertices, size_t vSize, unsigned int* indices, size_t iSize)
 {
-    // This can be refactored to be clearer, but should be fine.
     vao.Bind();
+
+    // Could refactor and split this
     vbo.SetDataAndBind(vertices, vSize);
     ebo.SetDataAndBind(indices, iSize);
-    vao.LinkAttrib(0);
+
+    // Could refactor by not hardcoding everything
+    vao.LinkAttribute(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
+    vao.LinkAttribute(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
+    vao.LinkAttribute(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+
     vao.Unbind();
     // vbo.Unbind();
     // ebo.Unbind();

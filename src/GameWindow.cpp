@@ -9,21 +9,20 @@
 
 
 GameWindow::GameWindow() {
-    Initialize();    
+    Initialize();
+    game.Init();    
 }
 
 GameWindow::~GameWindow() {
     Cleanup();
 }
 
-/**
- * @brief Initializes GLFW dependencies, prepares needed variables for
- * the main game loop, and then runs the main game loop.
- */
 void GameWindow::Run() {
-    // It'd be nice to take game out but game currently does some graphics and cant be
-    game.Init();
     float lastFrame = 0.0f;
+
+    float fpsTimer = 0.0f;
+    int frameCount = 0;
+    float fps = 0.0f;
 
     // -- MAIN GAME LOOP --
     while (!glfwWindowShouldClose(window) && game.IsRunning()) {
@@ -31,6 +30,20 @@ void GameWindow::Run() {
         float currentFrame = glfwGetTime();
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
+
+        // FPS calculation
+        fpsTimer += deltaTime;
+        frameCount++;
+
+        if (fpsTimer >= 1.0f) {
+            fps = frameCount / fpsTimer;
+            frameCount = 0;
+            fpsTimer = 0.0f;
+
+            // Update window title once per second
+            std::string title = "Saivox Engine - FPS: " + std::to_string((int)fps);
+            glfwSetWindowTitle(window, title.c_str());
+        }
         
         // Input
         inputManager.processInput(window);

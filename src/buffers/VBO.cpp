@@ -1,3 +1,5 @@
+#include <glad/glad.h>
+
 #include "buffers/VBO.h"
 
 // Vertices could be struct or float array

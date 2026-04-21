@@ -2,7 +2,7 @@
 
 class VAO {
 public:
-    /// @brief Creates a Vertex Array Object (VAO).
+    /// @brief Creates a Vertex Array Object (VAO) and populates this object's ID.
     VAO();
 
     /// @brief Deletes the VAO.
@@ -16,7 +16,14 @@ public:
 
     /// @brief Links a vertex attribute layout to this VAO.
     /// @param layout The attribute layout location in the shader (e.g., 0 for position).
-    void LinkAttrib(unsigned int layout);
+    void LinkAttribute(
+    unsigned int layout,
+    int componentCount,
+    unsigned int type,
+    bool normalized,
+    size_t stride,
+    const void* offset
+    );
 
 private:
     /// @brief OpenGL vertex array object ID.

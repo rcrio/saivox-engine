@@ -18,6 +18,7 @@ public:
     };
 
     Game();
+    /// @brief Currently sets up shaders and sets up mesh.
     void Init();
     void Update(float deltaTime, const InputState& input);
     void Draw(float aspect);
@@ -32,7 +33,7 @@ private:
 
     Renderer renderer;
     
-    std::unique_ptr<Mesh> cubeMesh;
+    std::unique_ptr<Mesh> squareMesh;
 
     
 };

@@ -1,11 +1,9 @@
 #pragma once
 
-#include <glad/glad.h>
-
 class VBO {
 public:
     /// @brief Creates a Vertex Buffer Object (VBO) and uploads vertex data to the GPU.
-    
+    /// Also populates this object's ID.  
     VBO();
 
     /// @brief Deletes the VBO.

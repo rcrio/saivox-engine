@@ -4,6 +4,7 @@
 #include "Game.h"
 #include "Shader.h"
 #include "Renderer.h"
+#include "Texture.h"
 
 Game::Game()
 {
@@ -13,6 +14,11 @@ Game::Game()
 void Game::Init() {
     shader.SetUpShaders();
     SetUpMesh();
+    /*
+    Texture texture;
+    texture.Bind();
+    texture.LoadFromFile("../../grass_block_side.png");
+    */
 }
 
 bool Game::IsRunning() const {
@@ -57,10 +63,10 @@ void Game::Draw(float aspect)
 
         case State::PLAYING:
         {
-            if (cubeMesh)
+            if (squareMesh)
             {   
                 // Messy, refactor
-                renderer.Draw(shader.GetShaderProgram(), *cubeMesh);
+                renderer.Draw(shader.GetShaderProgram(), *squareMesh);
             }
             break;
         }
@@ -76,36 +82,22 @@ void Game::Draw(float aspect)
 // REFACTOR NOTE: Should move this out into perhaps a mesh manager
 void Game::SetUpMesh()
 {
-    // 8 unique corners of a cube
-    float cubeVertices[] = {
-        -0.5f, -0.5f,  0.5f, // 0: Front-bottom-left
-         0.5f, -0.5f,  0.5f, // 1: Front-bottom-right
-         0.5f,  0.5f,  0.5f, // 2: Front-top-right
-        -0.5f,  0.5f,  0.5f, // 3: Front-top-left
-        -0.5f, -0.5f, -0.5f, // 4: Back-bottom-left
-         0.5f, -0.5f, -0.5f, // 5: Back-bottom-right
-         0.5f,  0.5f, -0.5f, // 6: Back-top-right
-        -0.5f,  0.5f, -0.5f  // 7: Back-top-left
+    // 4 corners of a square (XY plane, Z = 0)
+    float squareVertices[] = {
+        -0.5f, -0.5f, 0.0f, // bottom-left
+         0.5f, -0.5f, 0.0f, // bottom-right
+         0.5f,  0.5f, 0.0f, // top-right
+        -0.5f,  0.5f, 0.0f  // top-left
     };
 
-    // Instructions on how to connect the 8 dots into 12 triangles
-    unsigned int cubeIndices[] = {
-        // Front face
-        0, 1, 2, 2, 3, 0,
-        // Right face
-        1, 5, 6, 6, 2, 1,
-        // Back face
-        7, 6, 5, 5, 4, 7,
-        // Left face
-        4, 0, 3, 3, 7, 4,
-        // Top face
-        3, 2, 6, 6, 7, 3,
-        // Bottom face
-        4, 5, 1, 1, 0, 4
+    // 2 triangles forming a square
+    unsigned int squareIndices[] = {
+        0, 1, 2,
+        2, 3, 0
     };
 
-    cubeMesh = std::make_unique<Mesh>(
-        cubeVertices, sizeof(cubeVertices), 
-        cubeIndices, sizeof(cubeIndices)
+    squareMesh = std::make_unique<Mesh>(
+        squareVertices, sizeof(squareVertices),
+        squareIndices, sizeof(squareIndices)
     );
 }
