@@ -28,6 +28,8 @@ private:
 
     GLFWwindow* window;
     InputManager inputManager;
+    Shader regularShader;
+    Shader textureShader;
     Game game;
     
 };

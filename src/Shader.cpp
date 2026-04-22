@@ -1,33 +1,39 @@
 #include <glad/glad.h> // Needs to be in this order.
 #include <GLFW/glfw3.h>
+#include <fstream>
+#include <sstream>
 #include <iostream>
 
 #include "Shader.h"
 
-Shader::Shader() {
-    // Needs refactoring later on
-    this->vertexShaderSource = "#version 330 core\n"
-    "layout (location = 0) in vec3 aPos;\n"
-    "void main()\n"
-    "{\n"
-    "   gl_Position = vec4(aPos, 1.0);\n"
-    "}\0";
-
-    this->fragmentShaderSource = "#version 330 core\n"
-    "out vec4 FragColor;\n"
-    "uniform vec4 ourColor;\n"
-    "void main()\n"
-    "{\n"
-    "   FragColor = ourColor;\n"
-    "}\n\0";
+Shader::Shader(const char* vertexPath, const char* fragmentPath) {
+    this->vertexPath = vertexPath;
+    this->fragmentPath = fragmentPath;
 }
 
-Shader::Shader(const char* vertexShaderSource, const char* fragmentShaderSource) {
-    this->vertexShaderSource = vertexShaderSource;
-    this->fragmentShaderSource = fragmentShaderSource;
+std::string Shader::LoadFile(const char* path)
+{
+    std::ifstream file(path);
+
+    if (!file.is_open())
+    {
+        std::cout << "ERROR: Failed to open shader file: " << path << std::endl;
+        return "";
+    }
+
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+
+    return buffer.str();
 }
 
 void Shader::SetUpShaders() {
+    std::string vertexShaderCode = LoadFile(vertexPath);
+    std::string fragmentShaderCode = LoadFile(fragmentPath);
+
+    const char* vertexShaderSource = vertexShaderCode.c_str();
+    const char* fragmentShaderSource = fragmentShaderCode.c_str();
+
     vertexShader = CompileShader(GL_VERTEX_SHADER, vertexShaderSource);
     CheckShader(vertexShader, "Vertex");
 

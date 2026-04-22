@@ -6,10 +6,17 @@
 #include "Game.h"
 #include "InputState.h"
 #include "InputManager.h"
+#include "Shader.h"
 
-
-GameWindow::GameWindow() {
+GameWindow::GameWindow() :
+regularShader("shaders/regular.vs", "shaders/regular.fs"),
+textureShader("shaders/4.2.texture.vs", "shaders/4.2.texture.fs") {
     Initialize();
+    // Refactor note, shader here is a bit messy but doing this for now to test textures.
+    std::cout << "Starting regular shader setup... " << std::endl;
+    regularShader.SetUpShaders();
+    std::cout << "Starting texture shader setup..." << std::endl;
+    textureShader.SetUpShaders();
     game.Init();    
 }
 
@@ -61,7 +68,7 @@ void GameWindow::Run() {
         float aspect = (float)width / (float)height;
 
         // Draw
-        game.Draw(aspect);
+        game.Draw(regularShader, aspect);
 
         // GLFW: Swap buffers and poll IO events
         glfwSwapBuffers(window);

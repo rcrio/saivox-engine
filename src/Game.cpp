@@ -12,7 +12,7 @@ Game::Game()
 }
 
 void Game::Init() {
-    shader.SetUpShaders();
+    
     SetUpMesh();
     /*
     Texture texture;
@@ -54,7 +54,7 @@ void Game::Update(float deltaTime, const InputState& input)
     }
 }
 
-void Game::Draw(float aspect)
+void Game::Draw(Shader &shader, float aspect)
 {
     switch (currentState)
     {
@@ -82,22 +82,19 @@ void Game::Draw(float aspect)
 // REFACTOR NOTE: Should move this out into perhaps a mesh manager
 void Game::SetUpMesh()
 {
-    // 4 corners of a square (XY plane, Z = 0)
-    float squareVertices[] = {
-        -0.5f, -0.5f, 0.0f, // bottom-left
-         0.5f, -0.5f, 0.0f, // bottom-right
-         0.5f,  0.5f, 0.0f, // top-right
-        -0.5f,  0.5f, 0.0f  // top-left
+    float vertices[] = {
+         0.5f,  0.5f, 0.0f,  // top right
+         0.5f, -0.5f, 0.0f,  // bottom right
+        -0.5f, -0.5f, 0.0f,  // bottom left
+        -0.5f,  0.5f, 0.0f   // top left 
     };
-
-    // 2 triangles forming a square
-    unsigned int squareIndices[] = {
-        0, 1, 2,
-        2, 3, 0
+    unsigned int indices[] = {  // note that we start from 0!
+        0, 1, 3,  // first Triangle
+        1, 2, 3   // second Triangle
     };
 
     squareMesh = std::make_unique<Mesh>(
-        squareVertices, sizeof(squareVertices),
-        squareIndices, sizeof(squareIndices)
+        vertices, sizeof(vertices),
+        indices, sizeof(indices)
     );
 }

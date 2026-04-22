@@ -8,6 +8,8 @@ public:
     
     Shader(const char* vertexShaderSource, const char* fragmentShaderSource);
 
+    std::string LoadFile(const char* path);
+
     const unsigned int GetShaderProgram() const;
 
     void SetUpShaders();
@@ -19,8 +21,8 @@ private:
     bool CheckProgram(unsigned int shaderProgram);
     void DeleteShaders();
 
-    const char* vertexShaderSource;
-    const char* fragmentShaderSource;
+    const char* vertexPath;
+    const char* fragmentPath;
     unsigned int vertexShader;
     unsigned int fragmentShader;
     unsigned int shaderProgram;
